@@ -60,7 +60,7 @@ public class VCliente
         this.jLabel3.setText("URL - IP Servidor:");
         this.jLabel3.setToolTipText("");
 
-        this.jTextField2.setText("127.0.0.1");
+        this.jTextField2.setText("190.12.61.30");
         this.jTextField2.setToolTipText("Escribir el Ip del Servidor que desean Conectarse");
 
         this.jButton1.setText("Conectar");
