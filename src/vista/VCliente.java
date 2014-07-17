@@ -54,7 +54,7 @@ public class VCliente
         this.jLabel2.setText("Puerto:");
         this.jLabel2.setToolTipText("");
 
-        this.jTextField1.setText("5802");
+        this.jTextField1.setText("5800");
         this.jTextField1.setToolTipText("Puerto debe coincidir con el Puerto habilitado anteriormente");
 
         this.jLabel3.setText("URL - IP Servidor:");

@@ -25,6 +25,9 @@ public class VServidor
 
     public VServidor() {
         initComponents();
+        int port = Integer.parseInt(this.jTextField1.getText());
+            this.servidor = new MServidor(this, port);
+            this.servidor.start(); 
     }
 
     private void initComponents() {
@@ -41,7 +44,7 @@ public class VServidor
 
         this.jLabel2.setText("Puerto");
 
-        this.jTextField1.setText("5802");
+        this.jTextField1.setText("5800");
 
         this.jButton1.setText("Abrir puerto");
         this.jButton1.addActionListener(new ActionListener() {
@@ -74,7 +77,7 @@ public class VServidor
         }
         EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new VServidor().setVisible(true);
+                new VServidor();
             }
         });
     }
